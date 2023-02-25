@@ -1,0 +1,26 @@
+{
+  "name": "@petervanderheijden/deep-merge",
+  "version": "1.0.0",
+  "description": "Deep-merging objects without overriding existing keys.",
+  "main": "src/",
+  "files": [
+    "src/"
+  ],
+  "scripts": {
+    "lint": "npx eslint --ext .js src/",
+    "lint-and-fix": "npx eslint --ext .js src/ --fix"
+  },
+  "keywords": [
+    "deep-merge",
+    "merge",
+    "objects"
+  ],
+  "author": "Peter van der Heijden",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint": "^8.34.0",
+    "typescript": "^4.9.5"
+  }
+}
